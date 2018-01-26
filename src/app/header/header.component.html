@@ -1,0 +1,12 @@
+<mat-toolbar color="primary" fxLayoutAlign="space-between">
+    <h1 fxLayoutAlign="column center">Mon Site</h1>
+<button mat-icon-button [matMenuTriggerFor]="menu">
+  <mat-icon>more_vert</mat-icon>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/" fxLayoutAlign="center"><i class="material-icons">home</i></button>
+  <button mat-menu-item routerLink="/skills" fxLayoutAlign="center"><i class="material-icons">school</i></button>
+  <button mat-menu-item routerLink="/experiences" fxLayoutAlign="center"><i class="material-icons">wb_incandescent</i></button>
+  <button mat-menu-item routerLink="/liste" fxLayoutAlign="center"><i class="material-icons">list</i></button>
+</mat-menu>
+</button>
+</mat-toolbar>

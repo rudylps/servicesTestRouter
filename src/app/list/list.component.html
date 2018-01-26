@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let trucAFaire of linkService.liste">
+    {{ trucAFaire }}
+    <button (click)='editer = true'>Editer</button>
+    <button (click)='supprimerDeLaListe(trucAFaire)'>Supprimer</button>
+  </li>
+</ul>
